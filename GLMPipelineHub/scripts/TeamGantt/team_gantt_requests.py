@@ -14,8 +14,8 @@ headers = {
 
 data = {
     'grant_type': 'password',
-    'username': 'mikyle.mosquera@sjsu.edu',
-    'password': '27972kNX'
+    'username': 'INSERT USER',
+    'password': 'INSERT PASSWORD'
 }
 
 response = requests.post(auth_url, data=data, auth=HTTPBasicAuth(client_id, client_secret), headers=headers)
